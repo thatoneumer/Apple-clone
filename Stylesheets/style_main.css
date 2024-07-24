@@ -193,24 +193,25 @@ nav
     color: #000000;
     font-size: 30px;
     padding: 15px 18px;
-    position: absolute;
-    top: 50%;
-    left: 300px;
+    margin: 0 auto;
+    margin-top: -4.3px;
     width: 40%;
     text-align: center;
-    border: 2px Solid white;
+    border-bottom: 2px Solid var(--myColor);
+    border-right: 2px Solid var(--myColor);
+    border-left: 2px Solid var(--myColor);
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f2f2f2bf;
-    text-shadow: 5px 6px 7px white;
+    background-color: #f2f2f2;
 }
 
 .text a
 {
     font-size: 25px;
+    font-weight: bold;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
+    background-color: var(--myColor);
     padding-top: 20px;
     padding-bottom: 17px;
     padding-left: 10px;
@@ -240,13 +241,13 @@ nav
 
 .active,
 .dot:hover {
-    background-color: #717171;
+    background-color: var(--myColor);
 }
 
 /* Fading animation */
 .fade {
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 1.7s;
 }
 
 @keyframes fade {
@@ -282,7 +283,7 @@ nav
     justify-content: center;
     position: relative;
     text-align: center;
-    border: 1px solid green;
+    border: 1px solid rgba(255, 255, 255, 0.774);
 }
 
 .heading-box {
@@ -440,8 +441,9 @@ footer {
         overflow-x: hidden;
         background: url(../Assets/bg.jpg);
     }
+    
     .nav{
-        height: 55px;
+        height: 70px;
     }
     
     .navbar-content #display-block 
@@ -477,17 +479,6 @@ footer {
         margin-left: 1px;
     }
 
-     .carousal .slideshow-container .text {
-        position: absolute;
-        top: 50px;
-        left: 100px;
-        font-size: normal;
-        flex-direction: column;
-    }
-
-    .carousal .slideshow-container .text a{
-        display: block;
-    }
 
     .footer-text
     {
