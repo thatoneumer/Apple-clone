@@ -233,6 +233,12 @@ nav
     padding-bottom: 17px;
     padding-left: 10px;
     padding-right:10px;
+    transition: background-color 0.6s ease;
+}
+
+.text a:hover
+{
+    background-color: rgb(4, 102, 207);
 }
 
 /* Number text (1/3 etc) */
