@@ -265,16 +265,11 @@ nav
 .container
 {
     display: flex;
-    width: 1000px;
+    width: 1100px;
     justify-content: center;
     margin: 0 auto;
+    margin-top: 10px;
 }
-
-.left-box, .right-box
-{
-    margin-top: 20px;
-}
-
 
 .right-box
 {
@@ -287,6 +282,7 @@ nav
     justify-content: center;
     position: relative;
     text-align: center;
+    border: 1px solid green;
 }
 
 .heading-box {
@@ -469,11 +465,16 @@ footer {
     .navbar-content span {
             display: none;
     }
+
     .container
     {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .right-box {
+        margin-left: 1px;
     }
 
      .carousal .slideshow-container .text {
